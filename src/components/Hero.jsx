@@ -117,9 +117,9 @@ export default function Hero() {
               className="flex items-center gap-4 justify-center lg:justify-start"
             >
               {[
-                { icon: <Github size={18} />, href: '[github.com](https://github.com/kunwarpandey)',   label: 'GitHub' },
-                { icon: <Linkedin size={18} />, href: '[linkedin.com](https://linkedin.com/in/kunwarpandey)', label: 'LinkedIn' },
-                { icon: <Mail size={18} />,   href: 'mailto:kunwar@example.com',         label: 'Email' },
+                { icon: <Github size={18} />,   href: 'https://github.com/kunwarpandey',        label: 'GitHub' },
+                { icon: <Linkedin size={18} />, href: 'https://linkedin.com/in/kunwarpandey',   label: 'LinkedIn' },
+                { icon: <Mail size={18} />,     href: 'mailto:kunwar@example.com',              label: 'Email' },
               ].map(({ icon, href, label }) => (
                 <motion.a
                   key={label}
